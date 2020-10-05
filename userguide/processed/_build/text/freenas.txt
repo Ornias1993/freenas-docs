@@ -1,0 +1,602 @@
+FreeNAS^® 11.3-U5 User Guide
+****************************
+
+* 1. Introduction
+
+  * 1.1. New Features in 11.3
+
+    * 1.1.1. U1
+
+    * 1.1.2. U2
+
+    * 1.1.3. U3
+
+    * 1.1.4. U4
+
+    * 1.1.5. U5
+
+  * 1.2. Path and Name Lengths
+
+  * 1.3. Using the Web Interface
+
+    * 1.3.1. Tables and Columns
+
+    * 1.3.2. Advanced Scheduler
+
+    * 1.3.3. Schedule Calendar
+
+    * 1.3.4. Changing FreeNAS^® Settings
+
+    * 1.3.5. Web Interface Troubleshooting
+
+    * 1.3.6. Help Text
+
+    * 1.3.7. Humanized Fields
+
+    * 1.3.8. File Browser
+
+  * 1.4. Hardware Recommendations
+
+    * 1.4.1. RAM
+
+    * 1.4.2. The Operating System Device
+
+    * 1.4.3. Storage Disks and Controllers
+
+    * 1.4.4. Network Interfaces
+
+  * 1.5. Getting Started with ZFS
+
+* 2. Installing and Upgrading
+
+  * 2.1. Getting FreeNAS^®
+
+    * 2.1.1. Checking Installer Integrity
+
+      * 2.1.1.1. PGP Verification
+
+      * 2.1.1.2. SHA256 Verification
+
+  * 2.2. Preparing the Media
+
+    * 2.2.1. On FreeBSD or Linux
+
+    * 2.2.2. On Windows
+
+    * 2.2.3. On macOS
+
+  * 2.3. Performing the Installation
+
+  * 2.4. Installation Troubleshooting
+
+  * 2.5. Upgrading
+
+    * 2.5.1. Caveats
+
+    * 2.5.2. Initial Preparation
+
+    * 2.5.3. Upgrading Using the ISO
+
+    * 2.5.4. Upgrading From the Web Interface
+
+    * 2.5.5. If Something Goes Wrong
+
+    * 2.5.6. Upgrading a ZFS Pool
+
+  * 2.6. Virtualization
+
+    * 2.6.1. VirtualBox
+
+    * 2.6.2. VMware ESXi
+
+* 3. Booting
+
+  * 3.1. Obtaining an IP Address
+
+* 4. Accessing the Web Interface
+
+  * 4.1. Web Interface Troubleshooting
+
+* 5. Settings
+
+  * 5.1. Change Password
+
+  * 5.2. Preferences
+
+    * 5.2.1. Web Interface Preferences
+
+    * 5.2.2. Themes
+
+      * 5.2.2.1. Create New Themes
+
+  * 5.3. API Documentation
+
+  * 5.4. About
+
+* 6. Accounts
+
+  * 6.1. Groups
+
+  * 6.2. Users
+
+* 7. System
+
+  * 7.1. General
+
+  * 7.2. NTP Servers
+
+  * 7.3. Boot
+
+    * 7.3.1. Operating System Device Mirroring
+
+  * 7.4. Advanced
+
+    * 7.4.1. Autotune
+
+    * 7.4.2. Self-Encrypting Drives
+
+      * 7.4.2.1. Deploying SEDs
+
+      * 7.4.2.2. Check SED Functionality
+
+      * 7.4.2.3. Managing SED Passwords and Data
+
+  * 7.5. Email
+
+  * 7.6. System Dataset
+
+  * 7.7. Reporting
+
+  * 7.8. Alert Services
+
+  * 7.9. Alert Settings
+
+  * 7.10. Cloud Credentials
+
+  * 7.11. SSH Connections
+
+    * 7.11.1. Manual Setup
+
+    * 7.11.2. Semi-Automatic Setup
+
+  * 7.12. SSH Keypairs
+
+  * 7.13. Tunables
+
+  * 7.14. Update
+
+    * 7.14.1. Preparing for Updates
+
+    * 7.14.2. Updates and Trains
+
+    * 7.14.3. Checking for Updates
+
+    * 7.14.4. Saving the Configuration File
+
+    * 7.14.5. Applying Updates
+
+    * 7.14.6. Manual Updates
+
+    * 7.14.7. Update in Progress
+
+  * 7.15. CAs
+
+  * 7.16. Certificates
+
+    * 7.16.1. ACME Certificates
+
+  * 7.17. ACME DNS
+
+  * 7.18. Support
+
+* 8. Tasks
+
+  * 8.1. Cron Jobs
+
+  * 8.2. Init/Shutdown Scripts
+
+  * 8.3. Rsync Tasks
+
+    * 8.3.1. Rsync Module Mode
+
+    * 8.3.2. Rsync over SSH Mode
+
+  * 8.4. S.M.A.R.T. Tests
+
+  * 8.5. Periodic Snapshot Tasks
+
+    * 8.5.1. Snapshot Autoremoval
+
+  * 8.6. Replication
+
+    * 8.6.1. Replication Creation Wizard
+
+    * 8.6.2. Advanced Replication Creation
+
+    * 8.6.3. Replication Tasks
+
+    * 8.6.4. Limiting Replication Times
+
+    * 8.6.5. Troubleshooting Replication
+
+      * 8.6.5.1. SSH
+
+      * 8.6.5.2. Compression
+
+      * 8.6.5.3. Manual Testing
+
+  * 8.7. Resilver Priority
+
+  * 8.8. Scrub Tasks
+
+  * 8.9. Cloud Sync Tasks
+
+    * 8.9.1. Cloud Sync Example
+
+* 9. Network
+
+  * 9.1. Global Configuration
+
+  * 9.2. Interfaces
+
+    * 9.2.1. Network Bridges
+
+    * 9.2.2. Link Aggregations
+
+      * 9.2.2.1. LACP, MPIO, NFS, and ESXi
+
+      * 9.2.2.2. Creating a Link Aggregation
+
+      * 9.2.2.3. Link Aggregation Options
+
+    * 9.2.3. VLANs
+
+  * 9.3. IPMI
+
+  * 9.4. Network Summary
+
+  * 9.5. Static Routes
+
+* 10. Storage
+
+  * 10.1. Swap Space
+
+  * 10.2. Pools
+
+    * 10.2.1. Creating Pools
+
+    * 10.2.2. Managing Encrypted Pools
+
+      * 10.2.2.1. Encryption and Recovery Keys
+
+      * 10.2.2.2. Encryption Operations
+
+    * 10.2.3. Adding Cache or Log Devices
+
+    * 10.2.4. Removing Cache or Log Devices
+
+    * 10.2.5. Adding Spare Devices
+
+    * 10.2.6. Extending a Pool
+
+    * 10.2.7. Export/Disconnect a Pool
+
+    * 10.2.8. Importing a Pool
+
+    * 10.2.9. Viewing Pool Scrub Status
+
+    * 10.2.10. Adding Datasets
+
+      * 10.2.10.1. Deduplication
+
+      * 10.2.10.2. Compression
+
+    * 10.2.11. Adding Zvols
+
+    * 10.2.12. Setting Permissions
+
+    * 10.2.13. ACL Management
+
+  * 10.3. Snapshots
+
+    * 10.3.1. Browsing a Snapshot Collection
+
+    * 10.3.2. Creating a Single Snapshot
+
+  * 10.4. VMware-Snapshots
+
+  * 10.5. Disks
+
+    * 10.5.1. Replacing a Failed Disk
+
+      * 10.5.1.1. Removing a Log or Cache Device
+
+    * 10.5.2. Replacing Disks to Grow a Pool
+
+  * 10.6. Importing a Disk
+
+  * 10.7. Multipaths
+
+* 11. Overprovisioning
+
+* 12. Directory Services
+
+  * 12.1. Active Directory
+
+    * 12.1.1. Leaving the Domain
+
+    * 12.1.2. Troubleshooting Tips
+
+  * 12.2. LDAP
+
+  * 12.3. NIS
+
+  * 12.4. Kerberos Realms
+
+  * 12.5. Kerberos Keytabs
+
+  * 12.6. Kerberos Settings
+
+* 13. Sharing
+
+  * 13.1. Apple (AFP) Shares
+
+    * 13.1.1. Creating AFP Guest Shares
+
+  * 13.2. Block (iSCSI)
+
+    * 13.2.1. iSCSI Wizard
+
+    * 13.2.2. Target Global Configuration
+
+    * 13.2.3. Portals
+
+    * 13.2.4. Initiators
+
+    * 13.2.5. Authorized Access
+
+    * 13.2.6. Targets
+
+    * 13.2.7. Extents
+
+    * 13.2.8. Associated Targets
+
+    * 13.2.9. Connecting to iSCSI
+
+    * 13.2.10. Growing LUNs
+
+      * 13.2.10.1. Zvol Based LUN
+
+      * 13.2.10.2. File Extent Based LUN
+
+  * 13.3. Unix (NFS) Shares
+
+    * 13.3.1. Example Configuration
+
+    * 13.3.2. Connecting to the Share
+
+      * 13.3.2.1. From BSD or Linux
+
+      * 13.3.2.2. From Microsoft
+
+      * 13.3.2.3. From macOS
+
+    * 13.3.3. Troubleshooting NFS
+
+  * 13.4. WebDAV Shares
+
+  * 13.5. Windows (SMB) Shares
+
+    * 13.5.1. Configuring Unauthenticated Access
+
+    * 13.5.2. Configuring Authenticated Access With Local Users
+
+    * 13.5.3. User Quota Administration
+
+    * 13.5.4. Configuring Shadow Copies
+
+  * 13.6. Creating Authenticated and Time Machine Shares
+
+    * 13.6.1. Setting SMB and AFP Share Quotas
+
+    * 13.6.2. Client Time Machine Configuration
+
+* 14. Services
+
+  * 14.1. Configure Services
+
+  * 14.2. AFP
+
+    * 14.2.1. Troubleshooting AFP
+
+  * 14.3. Dynamic DNS
+
+  * 14.4. FTP
+
+    * 14.4.1. Anonymous FTP
+
+    * 14.4.2. FTP in chroot
+
+    * 14.4.3. Encrypting FTP
+
+    * 14.4.4. Troubleshooting FTP
+
+  * 14.5. iSCSI
+
+  * 14.6. LLDP
+
+  * 14.7. NFS
+
+  * 14.8. Rsync
+
+    * 14.8.1. Configure Rsyncd
+
+    * 14.8.2. Rsync Modules
+
+  * 14.9. S3
+
+  * 14.10. S.M.A.R.T.
+
+  * 14.11. SMB
+
+    * 14.11.1. Troubleshooting SMB
+
+  * 14.12. SNMP
+
+  * 14.13. SSH
+
+    * 14.13.1. SCP Only
+
+    * 14.13.2. Troubleshooting SSH
+
+  * 14.14. TFTP
+
+  * 14.15. UPS
+
+    * 14.15.1. Multiple Computers with One UPS
+
+  * 14.16. WebDAV
+
+* 15. Plugins
+
+  * 15.1. Installing Plugins
+
+  * 15.2. Updating Plugins
+
+  * 15.3. Uninstalling Plugins
+
+  * 15.4. Create a Plugin
+
+    * 15.4.1. Test a Plugin
+
+  * 15.5. Asigra Plugin
+
+* 16. Jails
+
+  * 16.1. Jail Storage
+
+  * 16.2. Creating Jails
+
+    * 16.2.1. Jail Wizard
+
+    * 16.2.2. Advanced Jail Creation
+
+      * 16.2.2.1. Creating Template Jails
+
+  * 16.3. Managing Jails
+
+    * 16.3.1. Jail Updates and Upgrades
+
+    * 16.3.2. Accessing a Jail Using SSH
+
+    * 16.3.3. Additional Storage
+
+  * 16.4. Jail Software
+
+    * 16.4.1. Installing FreeBSD Packages
+
+    * 16.4.2. Compiling FreeBSD Ports
+
+    * 16.4.3. Starting Installed Software
+
+* 17. Reporting
+
+* 18. Virtual Machines
+
+  * 18.1. Creating VMs
+
+  * 18.2. Installing Docker
+
+  * 18.3. Adding Devices to a VM
+
+    * 18.3.1. CD-ROM Devices
+
+    * 18.3.2. NIC (Network Interfaces)
+
+    * 18.3.3. Disk Devices
+
+    * 18.3.4. Raw Files
+
+    * 18.3.5. VNC Interface
+
+* 19. Display System Processes
+
+* 20. Shell
+
+* 21. Log Out, Restart, or Shut Down
+
+  * 21.1. Log Out
+
+  * 21.2. Restart
+
+  * 21.3. Shut Down
+
+* 22. Alert
+
+* 23. Task Manager
+
+* 24. Support Resources
+
+  * 24.1. User Guide
+
+  * 24.2. Website and Social Media
+
+  * 24.3. Forums
+
+  * 24.4. IRC
+
+  * 24.5. Videos
+
+  * 24.6. Professional Support
+
+* 25. Contributing to FreeNAS^®
+
+  * 25.1. Translation
+
+    * 25.1.1. Translate with GitHub
+
+    * 25.1.2. Download and Translate Offline
+
+    * 25.1.3. Translation Pull Requests
+
+* 26. Command Line Utilities
+
+  * 26.1. Iperf
+
+  * 26.2. Netperf
+
+  * 26.3. IOzone
+
+  * 26.4. arcstat
+
+  * 26.5. tw_cli
+
+  * 26.6. MegaCli
+
+  * 26.7. freenas-debug
+
+  * 26.8. tmux
+
+  * 26.9. Dmidecode
+
+  * 26.10. Midnight Commander
+
+* 27. ZFS Primer
+
+  * 27.1. ZFS Feature Flags
+
+* 28. OpenStack Cinder Driver
+
+* 29. VMware Recommendations
+
+  * 29.1. FreeNAS^® as a VMware Guest
+
+  * 29.2. Hosting VMware Storage with FreeNAS^®
+
+  * 29.3. VAAI for iSCSI
+
+* 30. Using the API
+
+  * 30.1. A Simple API Example
+
+  * 30.2. A More Complex Example

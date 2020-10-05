@@ -1,0 +1,53 @@
+21. Log Out, Restart, or Shut Down
+**********************************
+
+The  (Power) button is used to log out of the web interface or
+restart or shut down the FreeNAS^® system.
+
+
+21.1. Log Out
+=============
+
+To log out, click  (Power), then Log Out. After logging out, the
+login screen is displayed.
+
+
+21.2. Restart
+=============
+
+To restart the system, click  (Power), then Restart. A confirmation
+screen asks for verification of the restart. Figure %s. Click Confirm
+to confirm the action, then click RESTART to restart the system.
+
+   [image]Restart Warning Message
+
+An additional warning message appears when a restart is attempted when
+a scrub or resilver is in progress. When that warning appears, the
+recommended steps are to CANCEL the restart request and to
+periodically run **zpool status** from Shell until it shows that the
+scrub or verify has completed. Then the restart request can be entered
+again.
+
+To complete the restart request, click the Confirm checkbox and then
+the RESTART button. Restarting the system disconnects all clients,
+including the web administration interface. Wait a few minutes for the
+system to boot, then use the back button in the browser to return to
+the IP address of the FreeNAS^® system. The login screen appears after
+a successful reboot. If the login screen does not appear, using a
+monitor and keyboard to physically access the FreeNAS^® system is
+required to determine the issue preventing the system from resuming
+normal operation.
+
+
+21.3. Shut Down
+===============
+
+Click  (Power) and Shut Down to shut down the system. The warning
+message shown in Figure %s is displayed.
+
+   [image]Shut Down Warning Message
+
+Click Confirm and then SHUT DOWN to shut down the system. Shutting
+down the system disconnects all clients, including the web interface.
+Physical access to the FreeNAS^® system is required to turn it back
+on.
