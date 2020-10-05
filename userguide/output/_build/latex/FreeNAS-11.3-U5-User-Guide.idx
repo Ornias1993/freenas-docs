@@ -1,0 +1,192 @@
+\indexentry{Hardware Recommendations@\spxentry{Hardware Recommendations}}{19}
+\indexentry{Getting FreeNAS\textbackslash{} :sup:`®`@\spxentry{Getting FreeNAS\textbackslash{} :sup:`®`}}{24}
+\indexentry{Download@\spxentry{Download}}{24}
+\indexentry{Verify download files@\spxentry{Verify download files}}{24}
+\indexentry{Burn ISO@\spxentry{Burn ISO}}{25}
+\indexentry{ISO@\spxentry{ISO}}{25}
+\indexentry{Install@\spxentry{Install}}{27}
+\indexentry{Upgrade@\spxentry{Upgrade}}{34}
+\indexentry{Upgrade ZFS Pool@\spxentry{Upgrade ZFS Pool}}{40}
+\indexentry{Virtualization@\spxentry{Virtualization}}{42}
+\indexentry{VM@\spxentry{VM}}{42}
+\indexentry{GUI Access@\spxentry{GUI Access}}{60}
+\indexentry{Web Interface@\spxentry{Web Interface}}{60}
+\indexentry{Settings@\spxentry{Settings}}{62}
+\indexentry{Web Interface Preferences@\spxentry{Web Interface Preferences}}{63}
+\indexentry{Create New Themes@\spxentry{Create New Themes}}{65}
+\indexentry{Groups@\spxentry{Groups}}{67}
+\indexentry{Add Group@\spxentry{Add Group}}{68}
+\indexentry{New Group@\spxentry{New Group}}{68}
+\indexentry{Create Group@\spxentry{Create Group}}{68}
+\indexentry{Delete Group@\spxentry{Delete Group}}{70}
+\indexentry{Remove Group@\spxentry{Remove Group}}{70}
+\indexentry{Users@\spxentry{Users}}{70}
+\indexentry{Add User@\spxentry{Add User}}{71}
+\indexentry{Create User@\spxentry{Create User}}{71}
+\indexentry{New User@\spxentry{New User}}{71}
+\indexentry{Remove User@\spxentry{Remove User}}{74}
+\indexentry{Delete User@\spxentry{Delete User}}{74}
+\indexentry{NTP Servers@\spxentry{NTP Servers}}{78}
+\indexentry{Boot Environments@\spxentry{Boot Environments}}{79}
+\indexentry{Multiple Boot Environments@\spxentry{Multiple Boot Environments}}{79}
+\indexentry{Boot@\spxentry{Boot}}{79}
+\indexentry{Mirroring the \textbar{}OS\sphinxhyphen{}Device\textbar{}@\spxentry{Mirroring the \textbar{}OS\sphinxhyphen{}Device\textbar{}}}{81}
+\indexentry{Autotune@\spxentry{Autotune}}{84}
+\indexentry{Self\sphinxhyphen{}Encrypting Drives@\spxentry{Self\sphinxhyphen{}Encrypting Drives}}{84}
+\indexentry{SED@\spxentry{SED}}{87}
+\indexentry{SED Password@\spxentry{SED Password}}{87}
+\indexentry{Email@\spxentry{Email}}{88}
+\indexentry{System Dataset@\spxentry{System Dataset}}{90}
+\indexentry{Reporting@\spxentry{Reporting}}{91}
+\indexentry{Reporting settings@\spxentry{Reporting settings}}{91}
+\indexentry{Alert Services@\spxentry{Alert Services}}{92}
+\indexentry{Alert Settings@\spxentry{Alert Settings}}{94}
+\indexentry{Cloud Credentials@\spxentry{Cloud Credentials}}{95}
+\indexentry{SSH Connections@\spxentry{SSH Connections}}{99}
+\indexentry{SSH Keypairs@\spxentry{SSH Keypairs}}{102}
+\indexentry{Tunables@\spxentry{Tunables}}{103}
+\indexentry{CA@\spxentry{CA}}{112}
+\indexentry{Certificate Authority@\spxentry{Certificate Authority}}{112}
+\indexentry{Certificates@\spxentry{Certificates}}{115}
+\indexentry{ACME DNS@\spxentry{ACME DNS}}{121}
+\indexentry{Support@\spxentry{Support}}{122}
+\indexentry{Tasks@\spxentry{Tasks}}{124}
+\indexentry{Cron Jobs@\spxentry{Cron Jobs}}{125}
+\indexentry{Rsync Tasks@\spxentry{Rsync Tasks}}{128}
+\indexentry{S.M.A.R.T. Tests@\spxentry{S.M.A.R.T. Tests}}{134}
+\indexentry{Periodic Snapshot@\spxentry{Periodic Snapshot}}{135}
+\indexentry{Snapshot@\spxentry{Snapshot}}{135}
+\indexentry{Replication@\spxentry{Replication}}{138}
+\indexentry{Replication Creation Wizard@\spxentry{Replication Creation Wizard}}{138}
+\indexentry{Advanced Replication Creation@\spxentry{Advanced Replication Creation}}{141}
+\indexentry{Resilver Priority@\spxentry{Resilver Priority}}{147}
+\indexentry{Scrub@\spxentry{Scrub}}{148}
+\indexentry{Cloud Sync@\spxentry{Cloud Sync}}{150}
+\indexentry{Network Settings@\spxentry{Network Settings}}{156}
+\indexentry{Network Bridge@\spxentry{Network Bridge}}{161}
+\indexentry{Link Aggregation@\spxentry{Link Aggregation}}{162}
+\indexentry{LAGG@\spxentry{LAGG}}{162}
+\indexentry{LACP@\spxentry{LACP}}{162}
+\indexentry{EtherChannel@\spxentry{EtherChannel}}{162}
+\indexentry{VLAN@\spxentry{VLAN}}{164}
+\indexentry{Trunking@\spxentry{Trunking}}{164}
+\indexentry{802.1Q@\spxentry{802.1Q}}{164}
+\indexentry{Route@\spxentry{Route}}{166}
+\indexentry{Static Route@\spxentry{Static Route}}{166}
+\indexentry{Swap Space@\spxentry{Swap Space}}{168}
+\indexentry{Pools@\spxentry{Pools}}{168}
+\indexentry{Encryption@\spxentry{Encryption}}{171}
+\indexentry{Remove cache or log device@\spxentry{Remove cache or log device}}{175}
+\indexentry{Hot Spares@\spxentry{Hot Spares}}{175}
+\indexentry{Spares@\spxentry{Spares}}{175}
+\indexentry{Scrubs@\spxentry{Scrubs}}{181}
+\indexentry{Add Dataset@\spxentry{Add Dataset}}{182}
+\indexentry{Deduplication@\spxentry{Deduplication}}{184}
+\indexentry{Compression@\spxentry{Compression}}{185}
+\indexentry{ZVOL@\spxentry{ZVOL}}{185}
+\indexentry{ACL@\spxentry{ACL}}{188}
+\indexentry{Snapshots@\spxentry{Snapshots}}{192}
+\indexentry{VMware Snapshot@\spxentry{VMware Snapshot}}{195}
+\indexentry{Disks@\spxentry{Disks}}{196}
+\indexentry{Replace Failed Drive@\spxentry{Replace Failed Drive}}{199}
+\indexentry{AFP@\spxentry{AFP}}{217}
+\indexentry{Apple Filing Protocol@\spxentry{Apple Filing Protocol}}{217}
+\indexentry{iSCSI@\spxentry{iSCSI}}{223}
+\indexentry{Internet Small Computer System Interface@\spxentry{Internet Small Computer System Interface}}{223}
+\indexentry{RFC@\spxentry{RFC}!RFC 3721@\spxentry{RFC 3721}}{225}
+\indexentry{RFC@\spxentry{RFC}!RFC 3721@\spxentry{RFC 3721}}{231}
+\indexentry{NFS@\spxentry{NFS}}{237}
+\indexentry{Network File System@\spxentry{Network File System}}{237}
+\indexentry{WebDAV@\spxentry{WebDAV}}{245}
+\indexentry{CIFS@\spxentry{CIFS}}{246}
+\indexentry{Samba@\spxentry{Samba}}{246}
+\indexentry{Windows Shares@\spxentry{Windows Shares}}{246}
+\indexentry{SMB@\spxentry{SMB}}{246}
+\indexentry{Shadow Copies@\spxentry{Shadow Copies}}{256}
+\indexentry{Time Machine@\spxentry{Time Machine}}{256}
+\indexentry{Services@\spxentry{Services}}{260}
+\indexentry{Start Service@\spxentry{Start Service}}{261}
+\indexentry{Stop Service@\spxentry{Stop Service}}{261}
+\indexentry{AFP@\spxentry{AFP}}{262}
+\indexentry{Apple Filing Protocol@\spxentry{Apple Filing Protocol}}{262}
+\indexentry{Dynamic DNS@\spxentry{Dynamic DNS}}{264}
+\indexentry{DDNS@\spxentry{DDNS}}{264}
+\indexentry{FTP@\spxentry{FTP}}{266}
+\indexentry{File Transfer Protocol@\spxentry{File Transfer Protocol}}{266}
+\indexentry{LLDP@\spxentry{LLDP}}{271}
+\indexentry{Link Layer Discovery Protocol@\spxentry{Link Layer Discovery Protocol}}{271}
+\indexentry{NFS@\spxentry{NFS}}{272}
+\indexentry{Network File System@\spxentry{Network File System}}{272}
+\indexentry{Rsync@\spxentry{Rsync}}{274}
+\indexentry{S3@\spxentry{S3}}{277}
+\indexentry{Minio@\spxentry{Minio}}{277}
+\indexentry{S.M.A.R.T.@\spxentry{S.M.A.R.T.}}{278}
+\indexentry{CIFS@\spxentry{CIFS}}{279}
+\indexentry{Samba@\spxentry{Samba}}{279}
+\indexentry{Windows File Share@\spxentry{Windows File Share}}{279}
+\indexentry{SMB@\spxentry{SMB}}{279}
+\indexentry{SNMP@\spxentry{SNMP}}{282}
+\indexentry{Simple Network Management Protocol@\spxentry{Simple Network Management Protocol}}{282}
+\indexentry{SSH@\spxentry{SSH}}{284}
+\indexentry{Secure Shell@\spxentry{Secure Shell}}{284}
+\indexentry{SCP@\spxentry{SCP}}{286}
+\indexentry{Secure Copy@\spxentry{Secure Copy}}{286}
+\indexentry{TFTP@\spxentry{TFTP}}{287}
+\indexentry{Trivial File Transfer Protocol@\spxentry{Trivial File Transfer Protocol}}{287}
+\indexentry{UPS@\spxentry{UPS}}{288}
+\indexentry{Uninterruptible Power Supply@\spxentry{Uninterruptible Power Supply}}{288}
+\indexentry{WebDAV@\spxentry{WebDAV}}{291}
+\indexentry{Plugin@\spxentry{Plugin}}{292}
+\indexentry{Asigra Plugin@\spxentry{Asigra Plugin}}{303}
+\indexentry{Jails@\spxentry{Jails}}{303}
+\indexentry{Jail Storage@\spxentry{Jail Storage}}{304}
+\indexentry{Add Jail@\spxentry{Add Jail}}{305}
+\indexentry{New Jail@\spxentry{New Jail}}{305}
+\indexentry{Create Jail@\spxentry{Create Jail}}{305}
+\indexentry{Jail Wizard@\spxentry{Jail Wizard}}{305}
+\indexentry{Advanced Jail Creation@\spxentry{Advanced Jail Creation}}{307}
+\indexentry{Creating Template Jails@\spxentry{Creating Template Jails}}{314}
+\indexentry{Managing Jails@\spxentry{Managing Jails}}{315}
+\indexentry{Updating a Jail@\spxentry{Updating a Jail}}{317}
+\indexentry{Upgrading a Jail@\spxentry{Upgrading a Jail}}{317}
+\indexentry{Accessing a Jail Using SSH@\spxentry{Accessing a Jail Using SSH}}{317}
+\indexentry{SSH@\spxentry{SSH}}{317}
+\indexentry{Additional Storage@\spxentry{Additional Storage}}{319}
+\indexentry{Add Storage@\spxentry{Add Storage}}{319}
+\indexentry{Adding Storage@\spxentry{Adding Storage}}{319}
+\indexentry{Reporting@\spxentry{Reporting}}{328}
+\indexentry{Virtual Machines@\spxentry{Virtual Machines}}{330}
+\indexentry{VMs@\spxentry{VMs}}{330}
+\indexentry{Creating VMs@\spxentry{Creating VMs}}{333}
+\indexentry{Adding Devices to a VM@\spxentry{Adding Devices to a VM}}{336}
+\indexentry{Shell@\spxentry{Shell}}{344}
+\indexentry{Log Out@\spxentry{Log Out}}{346}
+\indexentry{Restart@\spxentry{Restart}}{346}
+\indexentry{or Shut Down@\spxentry{or Shut Down}}{346}
+\indexentry{Log Out@\spxentry{Log Out}}{347}
+\indexentry{Restart@\spxentry{Restart}}{347}
+\indexentry{Shutdown@\spxentry{Shutdown}}{348}
+\indexentry{Alert@\spxentry{Alert}}{349}
+\indexentry{User Guide Location@\spxentry{User Guide Location}}{354}
+\indexentry{Forums@\spxentry{Forums}}{354}
+\indexentry{IRC@\spxentry{IRC}}{355}
+\indexentry{Professional Support@\spxentry{Professional Support}}{356}
+\indexentry{Translation@\spxentry{Translation}}{357}
+\indexentry{Translate@\spxentry{Translate}}{357}
+\indexentry{Localize@\spxentry{Localize}}{357}
+\indexentry{Iperf@\spxentry{Iperf}}{361}
+\indexentry{Netperf@\spxentry{Netperf}}{364}
+\indexentry{IOzone@\spxentry{IOzone}}{365}
+\indexentry{arcstat@\spxentry{arcstat}}{367}
+\indexentry{tw\_cli@\spxentry{tw\_cli}}{372}
+\indexentry{MegaCli@\spxentry{MegaCli}}{374}
+\indexentry{freenas\sphinxhyphen{}debug@\spxentry{freenas\sphinxhyphen{}debug}}{374}
+\indexentry{tmux@\spxentry{tmux}}{375}
+\indexentry{Dmidecode@\spxentry{Dmidecode}}{376}
+\indexentry{Midnight Commander@\spxentry{Midnight Commander}}{376}
+\indexentry{ZFS Feature Flags@\spxentry{ZFS Feature Flags}}{380}
+\indexentry{OpenStack Cinder Driver@\spxentry{OpenStack Cinder Driver}}{380}
+\indexentry{VMware Recommendations@\spxentry{VMware Recommendations}}{381}
+\indexentry{VAAI for iSCSI@\spxentry{VAAI for iSCSI}}{382}
+\indexentry{API@\spxentry{API}}{383}
+\indexentry{RFC@\spxentry{RFC}!RFC 2616@\spxentry{RFC 2616}}{384}
