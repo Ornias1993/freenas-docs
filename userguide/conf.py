@@ -68,76 +68,45 @@ if tags.has('truenas'):
 
 # roles for text replacement
 rst_prolog = u'''
-.. |alert-icon-error|     replace:: 
-.. |alert-icon-info|      replace:: 
-.. |alert-icon-one-error| replace:: 
-.. |alert-icon-watch|     replace:: 肋
-.. |arrow-right|          replace:: 
-.. |bug-tracker-link|     replace:: `<https://bugs.ixsystems.com>`__
-.. |copyright-year|       replace:: 2020
-.. |Ctrlr-term|           replace:: TrueNAS Controller
-.. |Ctrlrs-term|          replace:: TrueNAS Controllers
-.. |Ctrlr-term-1|         replace:: TrueNAS Controller 1
-.. |Ctrlr-term-2|         replace:: TrueNAS Controller 2
-.. |Ctrlr-term-1-2|       replace:: TrueNAS Controller 1/2
-.. |ctrlr-term|           replace:: TrueNAS controller
-.. |ctrlrs-term|          replace:: TrueNAS controllers
-.. |ctrlr-term-1|         replace:: TrueNAS controller 1
-.. |ctrlr-term-2|         replace:: TrueNAS controller 2
-.. |ctrlr-term-1-2|       replace:: TrueNAS controller 1/2
-.. |ctrlr-term-active|    replace:: active TrueNAS controller
-.. |ctrlr-term-standby|   replace:: standby TrueNAS controller
-.. |ctrlrs-term-both|     replace:: active and standby TrueNAS controllers
-.. |active|               replace:: active
-.. |standby|              replace:: standby
-.. |active-standby|       replace:: active/standby
-.. |dockerhost|           replace:: Docker VM
-.. |help-pin|             replace::  (Pin)
-.. |help-text|            replace::  (Help Text)
-.. |help-close|           replace::  (Close)
-.. |humanized-field|      replace:: This is a :ref:`humanized field <Humanized Fields>`.
-.. |os-device|            replace:: operating system device
-.. |os-devices|           replace:: operating system devices
-.. |OS-Device|            replace:: Operating System Device
-.. |OS-Devices|           replace:: Operating System Devices
-.. |pool-degraded|        replace::  DEGRADED
-.. |pool-faulted|         replace::  Pool Fault
-.. |pool-healthy|         replace::  HEALTHY
-.. |pool-lock|            replace::  (Encryption Options)
-.. |pool-locked|          replace::  LOCKED
-.. |pool-unknown|         replace::  UNKNOWN
-.. |pool-unlock|          replace::  (Unlock)
-.. |rpln-sys1|            replace:: *Primary*
-.. |rpln-sys2|            replace:: *Secondary*
-.. |ssh-host1|            replace:: *Host 1*
-.. |ssh-host2|            replace:: *Host 2*
-.. |ui-add|               replace:: :guilabel:`ADD`
-.. |ui-browse|            replace::  (Browse)
-.. |ui-calendar|          replace:: 
-.. |ui-configure|         replace::  (Configure)
-.. |ui-chevron-right|     replace::  (Expand)
-.. |ui-delete|            replace::  :guilabel:`DELETE`
-.. |ui-edit|              replace::  :guilabel:`EDIT`
-.. |ui-edit-disks|        replace::  (Edit Disks)
-.. |ui-jail-delete|       replace::  (Delete)
-.. |ui-jail-start|        replace::  (Start)
-.. |ui-jail-stop|         replace::  (Stop)
-.. |ui-jail-update|       replace::  (Update)
-.. |ui-jail-shell|        replace:: 塞 SHELL
-.. |ui-launch|            replace:: 襁 (Launch)
-.. |ui-options|           replace::  (Options)
-.. |ui-password-hide|     replace::  (Hide)
-.. |ui-password-show|     replace::  (Show)
-.. |ui-power|             replace::  (Power)
-.. |ui-refresh|           replace::  (Refresh)
-.. |ui-settings|          replace::  (Settings)
-.. |ui-task-manager|      replace::  (Task Manager)
-.. |ui-task-run|          replace::  :guilabel:`RUN NOW`
-.. |ui-update|            replace:: 
-.. |usb-stick|            replace:: USB stick
-.. |usb-sticks|           replace:: USB sticks
-.. |web-ui|               replace:: web interface
-.. |Web-UI|               replace:: Web Interface
+.. alert-icon-error     replace:: 
+.. alert-icon-info      replace:: 
+.. alert-icon-one-error replace:: 
+.. alert-icon-watch     replace:: 肋
+.. arrow-right          replace:: 
+.. help-pin             replace::  (Pin)
+.. help-text            replace::  (Help Text)
+.. help-close          replace::  (Close)
+.. pool-degraded        replace::  DEGRADED
+.. pool-faulted        replace::  Pool Fault
+.. pool-healthy         replace::  HEALTHY
+.. pool-lock            replace::  (Encryption Options)
+.. pool-locked          replace::  LOCKED
+.. pool-unknown         replace::  UNKNOWN
+.. pool-unlock          replace::  (Unlock)
+.. ui-browse            replace::  (Browse)
+.. ui-calendar          replace:: 
+.. ui-configure         replace::  (Configure)
+.. ui-chevron-right     replace::  (Expand)
+.. ui-delete            replace::  :guilabel:`DELETE`
+.. ui-edit              replace::  :guilabel:`EDIT`
+.. ui-edit-disks        replace::  (Edit Disks)
+.. ui-jail-delete       replace::  (Delete)
+.. ui-jail-start        replace::  (Start)
+.. ui-jail-stop         replace::  (Stop)
+.. ui-jail-update       replace::  (Update)
+.. ui-jail-shell        replace:: 塞 SHELL
+.. ui-launch            replace:: 襁 (Launch)
+.. ui-options           replace::  (Options)
+.. ui-password-hide     replace::  (Hide)
+.. ui-password-show     replace::  (Show)
+.. ui-power             replace::  (Power)
+.. ui-refresh           replace::  (Refresh)
+.. ui-settings          replace::  (Settings)
+.. ui-task-manager      replace::  (Task Manager)
+.. ui-task-run          replace::  :guilabel:`RUN NOW`
+.. ui-update            replace:: 
+
+
 '''
 
 
